@@ -1,0 +1,16 @@
+#user-table_previous, #user-table_next, #user-table_paginate span a{
+  background-color: #59238f !important;
+  color: white !important;
+}
+.dataTables_length,
+.dataTables_info,
+.previous ,
+.dataTables_length label select,
+.dataTables_filter label,
+.dataTables_filter label input {
+  color: white !important;
+}
+
+tr{
+    border-bottom: 1px solid #fff;
+}

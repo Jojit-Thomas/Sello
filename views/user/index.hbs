@@ -1,0 +1,22 @@
+<section>
+  <div class="container mt-2 mt-sm-5">
+    <div class="row ">
+    {{#each items}}
+      <div class="col col-sm-6 col-md-4 col-xl-3 col-xxl-2">
+        <div class="card " >
+        <img src="/product-images/{{this._id}}.aivf" width="100px" class="card-img-top" alt="" />
+        <div class="card-body">
+          <h5 class="card-title text-dark">{{this.name}}</h5>
+          <p class="card-text text-dark">{{this.description}}</p>
+          <p class="card-text text-dark">{{this.price}}</p>
+          <a href="#" class="btn btn-primary">Add to Cart</a>
+        </div>
+      </div>
+      </div>
+    {{/each}}
+    {{#unless items}}
+    <h1>No Products are available</h1>
+    {{/unless}}
+  </div>
+  </div>
+</section>

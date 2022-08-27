@@ -1,0 +1,45 @@
+.loginBox{
+  max-width: 350px !important;
+  background-color: #000000;
+  /* height: 500px; */
+  border-radius: 10px;
+}
+form input{
+  border: none;
+  border-bottom:2px solid #2c2c2c40;
+  background-color: #000000;
+  outline: none;
+}
+form input:hover{
+  border: 1px solid #42F3FA;
+  box-shadow: 0px 0px 5px 1px rgba(66,243,250,0.7);
+}
+form input:focus{
+  border: 1px solid #42F3FA;
+  box-shadow: 0px 0px 5px 1px rgba(66,243,250,0.7);
+  background-color: #000000 ;
+}
+form button {
+  border: none;
+  height: 45px;
+}
+form label {
+  font-size: small;
+  color: #ff0000;
+}
+input:-webkit-autofill{
+  background-color: -internal-light-dark(rgb(0, 0, 0)) !important
+}
+.pink{
+  color: #59238f
+}
+.pink-bg{
+  background-color: #59238f
+}
+
+
+@media screen and (max-width: 360px) {
+  .loginBox{
+    width: 90vw;
+  }
+}
